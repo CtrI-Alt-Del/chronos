@@ -1,0 +1,6 @@
+[submodule "chronos-frontend"]
+	path = chronos-frontend
+	url = https://github.com/CtrI-Alt-Del/chronos-frontend.git
+[submodule "chronos-backend"]
+	path = chronos-backend
+	url = https://github.com/CtrI-Alt-Del/chronos-backend.git
