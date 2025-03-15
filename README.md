@@ -82,6 +82,7 @@ Cada tipo de commit é referente a como a alteração impacta no projeto, seja p
 | Reset de histórico de commits  | revert       |  ⏪  |
 | Estruturação de pastas/arquivos| file tree    |  🗃️  |
 | Certificados e licenças        | cert         |  📜  |
+| Trabalho não finalizado        | wip          |  🚧  |
 
 ## Como Executar Localmente no Windows 🖥️
 
