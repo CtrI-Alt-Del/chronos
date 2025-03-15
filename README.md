@@ -80,7 +80,7 @@ Cada tipo de commit é referente a como a alteração impacta no projeto, seja p
 | Arquivos estáticos             | assets       |  🎴  |
 | Merge de branches              | merge        |  🔀  |
 | Reset de histórico de commits  | revert       |  ⏪  |
-| Estruturação de pastas/arquivos| file tree    |  🗃️  |
+| Estruturação de pastas/arquivos| ftree        |  🗃️  |
 | Certificados e licenças        | cert         |  📜  |
 | Trabalho não finalizado        | wip          |  🚧  |
 
