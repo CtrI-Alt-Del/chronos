@@ -1,18 +1,42 @@
 ## Visão geral do produto 🖥️
 
-### 🚧 WORK IN PROGRESS 🚧
+Chronos é uma aplicação web que simplifica o gerenciamento de ponto online, oferecendo funcionalidades completas para controle de jornada de trabalho.
+Permite o registro de ponto online, cálculo automático de horas, gestão de ausências e geração de relatórios detalhados.
+A interface intuitiva do Chronos facilita o acompanhamento da jornada de trabalho.
+
 ---
 
 ## Problema do cliente 👔
 
-### 🚧 WORK IN PROGRESS 🚧
+### Desafios Atuais:
 
+* Controle manual de ponto, sujeito a erros e fraudes.
+* Dificuldade no cálculo preciso de horas trabalhadas e extras.
+* Falta de visibilidade sobre a jornada de trabalho dos funcionários.
+* Processos burocráticos para gestão de ausências.
+* Dificuldade na geração de relatórios para análise de dados.
+* Não conformidade com a legislação trabalhista.
+
+### Necessidades:
+
+Automatizar o controle de ponto para aumentar a precisão e reduzir erros.
+Obter cálculos precisos e automáticos de horas trabalhadas.
+Melhorar a visibilidade da jornada de trabalho dos funcionários.
+Simplificar a gestão de ausências com fluxos de aprovação.
+Gerar relatórios personalizados para análise de dados.
+Garantir a conformidade com a legislação trabalhista.
 
 ---
 
 ## Objetivo do produto 🎯
 
-### 🚧 WORK IN PROGRESS 🚧
+* Desenvolver uma aplicação web intuitiva e eficiente para o gerenciamento de ponto online.
+* Permitir o registro preciso de ponto com diferentes opções.
+* Oferecer cálculos automáticos de horas trabalhadas e extras.
+* Simplificar a gestão de ausências com fluxos de aprovação.
+* Fornecer relatórios detalhados.
+* Garantir a segurança dos dados e a conformidade com a legislação.
+* permitir o acesso remoto para funcionários e gestores.
 
 ---
 
