@@ -56,8 +56,12 @@ Para a confecção do produto foi empregado o framework de [metodologia ágil Sc
 ## Backlog do produto 📖
 
 ### Requisitos 📒
+<img src="documentation/images/requisitos.png" alt="Tabela contendo todos os requisitos em ordem de prioridade" width="2000" height="660" />
 
-### 🚧 WORK IN PROGRESS 🚧
+### Histórias de usuário 🃏
+
+<img src="documentation/images/backlog.png" alt="Primeira parte da tabela que contém todos as histórias de usuário" width="2000" height="
+1850" />
 
 ---
 
