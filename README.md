@@ -66,7 +66,7 @@ sprint-1: https://drive.google.com/file/d/1ff7LNQ2wsaeLG8Vm8wrv7Jd8iUDG0kdC/view
 
 ## Relatório e detalhes de cada Sprint 📅
 
-### 🚧 WORK IN PROGRESS 🚧
+- Sprint 1: [Acessar](https://github.com/CtrI-Alt-Del/chronos/blob/main/documentation/sprints-reports/sprint-1.md)
 
 ---
 
@@ -182,8 +182,109 @@ Cada tipo de commit é referente a como a alteração impacta no projeto, seja p
 
 ## Como Executar Localmente no Windows 🖥️
 
-### 🚧 WORK IN PROGRESS 🚧
+### Pré-requisitos
 
+Antes de começar, certifique-se de que você tem o seguinte instalado em sua máquina Windows:
+
+1. **Node.js**: Baixe e instale o Node.js a partir de [nodejs.org](https://nodejs.org/). Isso também instalará o npm (Node Package Manager).
+2. **Git**: Baixe e instale o Git a partir de [git-scm.com](https://git-scm.com/).
+3. **Um editor de código**: Você pode usar qualquer editor de código, mas o Visual Studio Code é recomendado. Baixe-o em [code.visualstudio.com](https://code.visualstudio.com/).
+4. **Maven**: Caso você não tenha extensões no Visual Studio Code, você pode usar um compilador para conseguir rodar o projeto, como o Maven. 
+
+### Passo 1: Clonar os Repositórios
+
+Abra o seu prompt de comando (cmd) ou PowerShell e execute o seguinte comando para clonar os repositórios:
+
+```bash
+git clone https://github.com/CtrI-Alt-Del/chronos-frontend.git
+git clone https://github.com/CtrI-Alt-Del/chronos-backend.git
+```
+
+### Passo 2: Navegar até o Diretório do Projeto
+
+Mude para o diretório do projeto:
+
+```bash
+cd chronos-frontend
+cd chronos-backend
+```
+
+Obs: É necessário rodar os 2 repositórios juntos.
+
+### Passo 3: Instalar Dependências no Frontend
+
+Execute o seguinte comando para instalar as dependências necessárias no repositório do frontend:
+
+```bash
+npm install
+```
+
+### Passo 4: Configurar Variáveis de Ambiente do SERVIDOR e do CLIENTE:
+
+1. **Localize o arquivo `.env.example`** na raiz do seu diretório do projeto. Este arquivo contém exemplos de variáveis de ambiente que você precisa configurar.
+2. **Crie um novo arquivo chamado `.env`** no mesmo diretório que o `.env.example`.
+3. **Copie o conteúdo do `.env.example`** para o novo arquivo `.env`.
+4. **Atualize os valores** no arquivo `.env` de acordo com sua configuração local. Aqui está um exemplo de como o arquivo `.env` pode parecer:
+
+#### Variáveis de Ambiente do SERVIDOR:
+
+```
+DATABASE_SOURCE_URL=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+WEB_APP_URL=
+JWT_SECRET=
+```
+
+#### Variáveis de Ambiente do CLIENTE:
+
+```
+NEXT_PUBLIC_WEB_APP_URL=
+NEXT_PUBLIC_SERVER_APP_URL=
+```
+
+Certifique-se de substituir os valores de espaço reservado pelos seus dados reais.
+
+### Passo 5: Executar o Projeto
+
+Após configurar as variáveis de ambiente, você pode executar o projeto usando o seguinte comando na pasta `chronos-backend`:
+
+```bash
+mvnw.cmd spring-boot:run
+```
+
+Se estiver no PowerShell:
+
+```bash
+./mvnw.cmd spring-boot:run
+```
+
+Obs: Se precisar apenas compilar o projeto antes de rodá-lo, use:
+
+```bash
+./mvnw.cmd compile
+```
+
+Na pasta `chronos-frontend`:
+
+```bash
+npm run dev
+```
+
+Este comando iniciará a aplicação, e você deverá ver uma saída indicando que a aplicação cliente e servidor está em execução.
+
+### Passo 6: Acessar a Aplicação
+
+Abra seu navegador e navegue até `http://localhost:3000` (ou a porta que você especificou no arquivo `.env`) para acessar a aplicação web.
+Ou abra o navegador e navegue até `http://localhost:8080` (ou a porta que você especificou no arquivo `.env`) para acessar o servidor.
+
+### Solução de Problemas
+
+- Se você encontrar algum problema, verifique a saída do console para mensagens de erro.
+- Certifique-se de que todas as variáveis de ambiente estão configuradas corretamente no arquivo `.env` tanto do cliente quanto do servidor.
+- Verifique se seu banco de dados e quaisquer outros serviços estão em execução, caso sua aplicação dependa deles.
+
+---
 
 ## Time de Desenvolvimento 👷🏻
 
@@ -192,7 +293,6 @@ Cada tipo de commit é referente a como a alteração impacta no projeto, seja p
 | <img src="https://github.com/JohnPetros.png?size=50" width=50px> | Joao Pedro Carvalho | Scrum Team | <a href="https://github.com/JohnPetros"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-carvalho-dos-santos-42a0ab222/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <img src="https://github.com/0thigs.png?size=50" width=50px> | Thiago Martins | Scrum Team | <a href="https://github.com/0thigs"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/desenvolvedor-frontend/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <img src="https://github.com/kaufon.png?size=50" width=50px> | Kauan Fonseca do Vale | Scrum Team | <a href="https://github.com/kaufon"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/kauan-fonseca-b62188300/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <img src="https://github.com/FaelSantoss.png?size=50" width=50px> | Rafael dos Santos | Scrum Master | <a href="https://github.com/FaelSantoss"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/rafael-santos-6243b1255/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| <img src="https://github.com/Tico1606.png?size=50" width=50px> | Gabriel Oliveira | Scrum Team | <a href="https://github.com/Tico1606"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/gabriel-oliveira-884ba5282/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+| <img src="https://github.com/Tico1606.png?size=50" width=50px> | Gabriel Oliveira | Scrum Master | <a href="https://github.com/Tico1606"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/gabriel-oliveira-884ba5282/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <img src="https://github.com/JoaoGabrielGarcia.png?size=50" width=50px> | Joao Gabriel Oliveira | Product Owner | <a href="https://github.com/JoaoGabrielGarcia"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-oliveira-garcia-b2563a22a/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | <img src="https://github.com/EduardoKuwahara.png?size=50" width=50px> | Eduardo Kuwahare Junior | Scrum Team | <a href="https://github.com/EduardoKuwahara"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a> |  <a href="https://www.linkedin.com/in/eduardo-kuwahara-junior-3b2267303/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
