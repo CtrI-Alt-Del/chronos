@@ -2,11 +2,11 @@
 
 ## Requisitos realizados nessa sprint ✨
 
-<img src="../images/requirements-sprint-1.jpg" width="2000" height="450" />
+<img src="../images/requirements-sprint-1.png" width="2000" height="450" />
 
 ## User Stories realizados nessa sprint 📖
 
-<img src="../images/user-stories-sprint-1.jpg"  width="2223" height="1240"  />
+<img src="../images/user-stories-sprint-1.png"  width="2223" height="1240"  />
 
 ## Critérios de aceitação para cada User Story 📒
 
