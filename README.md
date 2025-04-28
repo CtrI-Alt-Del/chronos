@@ -67,6 +67,7 @@ sprint-1: https://drive.google.com/file/d/1ff7LNQ2wsaeLG8Vm8wrv7Jd8iUDG0kdC/view
 ## Relatório e detalhes de cada Sprint 📅
 
 - Sprint 1: [Acessar](https://github.com/CtrI-Alt-Del/chronos/blob/main/documentation/sprints-reports/sprint-1.md)
+- Sprint 2: [Acessar](https://github.com/CtrI-Alt-Del/chronos/blob/main/documentation/sprints-reports/sprint-2.md)
 
 ---
 
