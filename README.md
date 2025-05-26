@@ -46,12 +46,6 @@ Para a confecção do produto foi empregado o framework de [metodologia ágil Sc
 
 ---
 
-## MVP'S 🏆
-
-sprint-1: https://drive.google.com/file/d/1ff7LNQ2wsaeLG8Vm8wrv7Jd8iUDG0kdC/view
-
----
-
 ## Backlog do produto 📖
 
 ### Requisitos 📒
@@ -61,13 +55,6 @@ sprint-1: https://drive.google.com/file/d/1ff7LNQ2wsaeLG8Vm8wrv7Jd8iUDG0kdC/view
 
 <img src="documentation/images/backlog.png" alt="Primeira parte da tabela que contém todos as histórias de usuário" width="2000" height="
 1850" />
-
----
-
-## Relatório e detalhes de cada Sprint 📅
-
-- Sprint 1: [Acessar](https://github.com/CtrI-Alt-Del/chronos/blob/main/documentation/sprints-reports/sprint-1.md)
-- Sprint 2: [Acessar](https://github.com/CtrI-Alt-Del/chronos/blob/main/documentation/sprints-reports/sprint-2.md)
 
 ---
 
@@ -148,15 +135,13 @@ sprint-1: https://drive.google.com/file/d/1ff7LNQ2wsaeLG8Vm8wrv7Jd8iUDG0kdC/view
 
 ---
 
-## Padronização de commits
-
-# Padronização de commit
+## Padronização de commit
 
 Cada tipo de commit é referente a como a alteração impacta no projeto, seja por nível de camada, estruturação de arquivos ou ainda histórico dos commits, seguindo o padrão:
 
 |Emoji| |Prefixo|: |Descrição do commit em inglês|
 
-## Tabela de commits
+### Tabela de commits
 
 | Tipo de commit                 | Prefixo      | Emoji |
 |:-------------------------------|:-------------|:------|
@@ -181,6 +166,25 @@ Cada tipo de commit é referente a como a alteração impacta no projeto, seja p
 | Certificados e licenças        | cert         |  📜  |
 | Trabalho não finalizado        | wip          |  🚧  |
 
+## Padronização de Branchs
+
+O nome das branches deve seguir um padrão que facilita a identificação do tipo de mudança sendo feita e seu objetivo. A estrutura é composta por:
+
+Emoji, de acordo com o tipo de alteração, seguindo a tabela usada nos commits.
+
+Prefixo do emoji, que identifica o tipo de alteração.
+
+Dois-pontos (:) como separador.
+
+Descrição resumida, em letras minúsculas e com palavras separadas por hifens, explicando de forma breve o propósito da branch.
+
+### Exemplos:
+
+⚙️ config: create-next-config
+🖥️ ui: create-login-page
+
+---
+
 ## Como Executar Localmente no Windows 🖥️
 
 ### Pré-requisitos
@@ -190,7 +194,8 @@ Antes de começar, certifique-se de que você tem o seguinte instalado em sua m�
 1. **Node.js**: Baixe e instale o Node.js a partir de [nodejs.org](https://nodejs.org/). Isso também instalará o npm (Node Package Manager).
 2. **Git**: Baixe e instale o Git a partir de [git-scm.com](https://git-scm.com/).
 3. **Um editor de código**: Você pode usar qualquer editor de código, mas o Visual Studio Code é recomendado. Baixe-o em [code.visualstudio.com](https://code.visualstudio.com/).
-4. **Maven**: Caso você não tenha extensões no Visual Studio Code, você pode usar um compilador para conseguir rodar o projeto, como o Maven. 
+4. **Maven**: Caso você não tenha extensões no Visual Studio Code, você pode usar um compilador para conseguir rodar o projeto, como o Maven.
+5. **Docker**: É necessário ter o docker desktop para rodar o projeto, apenas com ele isntalado no computador e iniciado será o suficiente.
 
 ### Passo 1: Clonar os Repositórios
 
@@ -246,9 +251,19 @@ NEXT_PUBLIC_SERVER_APP_URL=
 
 Certifique-se de substituir os valores de espaço reservado pelos seus dados reais.
 
+
 ### Passo 5: Executar o Projeto
 
 Após configurar as variáveis de ambiente, você pode executar o projeto usando o seguinte comando na pasta `chronos-backend`:
+
+```bash
+docker compose up -d
+```
+
+Obs: Se for sua primeira vez rodando o container, abra o application.properties, que está dentro de resources, dentro de main e subustita a configuração dessas 2 linhas para essas:
+
+spring.jpa.hibernate.ddl-auto=create
+database.seed.enabled=true
 
 ```bash
 mvnw.cmd spring-boot:run
