@@ -49,12 +49,18 @@ Para a confecção do produto foi empregado o framework de [metodologia ágil Sc
 ## Backlog do produto 📖
 
 ### Requisitos 📒
-<img src="documentation/images/requisitos.png" alt="Tabela contendo todos os requisitos em ordem de prioridade" width="2000" height="660" />
+<img src="documents/images/requisitos.png" alt="Tabela contendo todos os requisitos em ordem de prioridade" width="2000" height="660" />
 
 ### Histórias de usuário 🃏
 
-<img src="documentation/images/backlog.png" alt="Primeira parte da tabela que contém todos as histórias de usuário" width="2000" height="
+<img src="documents/images/backlog.png" alt="Primeira parte da tabela que contém todos as histórias de usuário" width="2000" height="
 1850" />
+
+---
+
+## Documentação do Projeto 📚 
+
+- Documentação: [Acessar](https://github.com/CtrI-Alt-Del/chronos-documentation)
 
 ---
 
@@ -65,67 +71,67 @@ Para a confecção do produto foi empregado o framework de [metodologia ágil Sc
   <tr>
     <td align="center" width="96">
       <a target="_blank" href="https://www.figma.com/">
-        <img src="documentation/images/Figma.svg" width="48" height="48" alt="Figma" />
+        <img src="documents/images/Figma.svg" width="48" height="48" alt="Figma" />
       </a>
       <span>Figma</span>
     </td>
     <td align="center" width="96">
       <a target="_blank" href="https://tailwindcss.com/">
-        <img src="documentation/images/Tailwind CSS.svg" width="48" height="48" alt="TailwindCSS" />
+        <img src="documents/images/Tailwind CSS.svg" width="48" height="48" alt="TailwindCSS" />
       </a>
       <span>TailwindCSS</span>
     </td>
     <td align="center" width="96">
       <a href="https://www.typescriptlang.org/docs/">
-        <img src="documentation/images/TypeScript.svg" width="48" height="48" alt="TypeScript" />
+        <img src="documents/images/TypeScript.svg" width="48" height="48" alt="TypeScript" />
       </a>
       <span>TypeScript</span>
     </td>
     <td align="center" width="96">
       <a href="https://react.dev">
-        <img src="documentation/images/React.svg" width="48" height="48" alt="React" />
+        <img src="documents/images/React.svg" width="48" height="48" alt="React" />
       </a>
       <span>React</span>
     </td>
     <td align="center" width="96">
       <a href="https://nextjs.org/docs">
-        <img src="documentation/images/Next.js.svg" width="48" height="48" alt="NextJS" />
+        <img src="documents/images/Next.js.svg" width="48" height="48" alt="NextJS" />
       </a>
       <span>NextJS</span>
     </td>
     <td align="center" width="96">
       <a href="https://nextui.org/">
-        <img src="documentation/images/heroui.png" width="48" height="48" alt="NextUi"/>
+        <img src="documents/images/heroui.png" width="48" height="48" alt="NextUi"/>
       </a>
       <span>HeroUI</span>
     </td>
     <td align="center" width="96">
       <a href="https://zod.dev/">
-        <img src="documentation/images/zod.svg" width="48" height="48" alt="zod"/>
+        <img src="documents/images/zod.svg" width="48" height="48" alt="zod"/>
       </a>
       <span>Zod</span>
     </td>
     <td align="center" width="96">
       <a href="https://nuqs.47ng.com/">
-        <img src="documentation/images/nuqs.svg" width="48" height="48" alt="nuqs"/>
+        <img src="documents/images/nuqs.svg" width="48" height="48" alt="nuqs"/>
       </a>
       <span>Nuqs</span>
     </td>
     <td align="center" width="96">
       <a href="https://www.java.com/pt-BR/spring">
-        <img src="documentation/images/java.svg" width="48" height="48" alt="java"/>
+        <img src="documents/images/java.svg" width="48" height="48" alt="java"/>
       </a>
       <span>Java</span>
     </td>
     <td align="center" width="96">
       <a href="https://spring.io/">
-        <img src="documentation/images/spring.svg" width="48" height="48" alt="spring"/>
+        <img src="documents/images/spring.svg" width="48" height="48" alt="spring"/>
       </a>
       <span>Spring</span>
     </td>
     <td align="center" width="96">
       <a href="https://neon.tech/?gad_source=1&gclid=Cj0KCQjwhYS_BhD2ARIsAJTMMQaU_sPd67haaM_8dTu7c0L7c4Pe7apx7kye8vurDyc6un9iRpFlaoAaAv5JEALw_wcB">
-        <img src="documentation/images/neon.jpeg" width="48" height="48" alt="neon"/>
+        <img src="documents/images/neon.jpeg" width="48" height="48" alt="neon"/>
       </a>
       <span>Neon</span>
     </td>
