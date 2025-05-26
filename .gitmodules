@@ -7,3 +7,6 @@
     path = chronos-backend
     url = https://github.com/CtrI-Alt-Del/chronos-backend.git
     branch = main
+[submodule "chronos-documentation"]
+	path = chronos-documentation
+	url = https://github.com/CtrI-Alt-Del/chronos-documentation.git
